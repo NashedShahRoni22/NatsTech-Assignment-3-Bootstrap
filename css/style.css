@@ -1,0 +1,60 @@
+/* navbar styles  */
+.navbar-brand{
+    color: tomato;
+}
+.nav-link{
+    color: #777777;
+}
+.nav-register-btn{
+    border: 2px solid tomato;
+    color: tomato;
+}
+.nav-register-btn:hover{
+    background-color: tomato;
+    color: white;
+}
+
+/* carousel styles  */
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 0.7;
+}
+/* explore styles  */
+.explore-iiner{
+    background-color: #F4FAFD;
+}
+/* bonus section  */
+.bonus-section{
+    background-color: tomato;
+}
+/* common btn design  */
+.carousel-btn, .view-all-btn, .explore-btn{
+    background-color: tomato;
+    color: white;
+}
+.bonus-section-btn{
+    color: tomato;
+}
+.bonus-section-btn:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: tomato;
+}
+@media only screen and (max-width:575px) {
+    .courses-img img{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:576px) {
+   
+    .question-content{
+        width: 50%;
+    }
+}
